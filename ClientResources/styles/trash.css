@@ -1,0 +1,12 @@
+﻿.Sleek .epi-trash .epi-gridDeleteAction {
+    display: none;
+    float: right;
+    padding-right: 10px
+}
+
+.Sleek .epi-trash .dgrid-selected .epi-gridDeleteAction,
+.Sleek .epi-trash .epi-dgrid-mouseover .epi-gridDeleteAction {
+    display: block;
+    cursor: pointer;
+    text-decoration: underline
+}
