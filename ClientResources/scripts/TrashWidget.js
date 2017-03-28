@@ -11,9 +11,7 @@
     "epi/shell/widget/dialog/Confirmation",
 
     // Resources
-    "epi/i18n!epi/cms/nls/episerver.cms.components.trash" //,
-
-    //"xstyle/css!./../styles/trash.css"
+    "epi/i18n!epi/cms/nls/episerver.cms.components.trash"
 ],
     function (
         declare,
