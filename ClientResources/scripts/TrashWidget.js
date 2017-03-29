@@ -42,7 +42,7 @@
                 this._modifyActionColumn(trashItemListWidget);
 
                 var storeRegistry = dependency.resolve("epi.storeregistry");
-                this._extendedWastebasketStore = storeRegistry.get("singleFileTrasher.extendedWastebasket");
+                this._extendedWastebasketStore = storeRegistry.get("singleContentItemTrasher.extendedWastebasket");
 
                 this._initDeleteOnClick(trashItemListWidget);
 

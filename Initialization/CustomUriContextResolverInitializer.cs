@@ -6,7 +6,7 @@ using EPiServer.Framework.Initialization;
 using EPiServer.ServiceLocation;
 using EPiServer.Shell.Rest;
 
-namespace SingleFileTrasher.Initialization
+namespace SingleContentItemTrasher.Initialization
 {
     [ModuleDependency(typeof(EPiServer.Web.InitializationModule))]
     public class CustomUriContextResolverInitializer : IConfigurableModule

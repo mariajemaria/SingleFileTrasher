@@ -7,8 +7,8 @@
     <ProjectGuid>{53CB0FA3-6011-4063-8992-A7CC86FF8DD6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SingleFileTrasher</RootNamespace>
-    <AssemblyName>SingleFileTrasher</AssemblyName>
+    <RootNamespace>SingleContentItemTrasher</RootNamespace>
+    <AssemblyName>SingleContentItemTrasher</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -45,7 +45,7 @@
   <ItemGroup>
     <None Include=".nuget\NuGet.Config" />
     <None Include=".nuget\NuGet.targets" />
-    <None Include="SingleFileTrasher.nuspec">
+    <None Include="SingleContentItemTrasher.nuspec">
       <SubType>Designer</SubType>
     </None>
     <None Include="module.config" />

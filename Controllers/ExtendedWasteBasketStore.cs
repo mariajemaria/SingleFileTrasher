@@ -6,7 +6,7 @@ using EPiServer.Framework;
 using EPiServer.Security;
 using EPiServer.Shell.Services.Rest;
 
-namespace SingleFileTrasher.Controllers
+namespace SingleContentItemTrasher.Controllers
 {
     [RestStore("extendedWastebasket")]
     public class ExtendedWasteBasketStore : RestControllerBase

@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SingleFileTrasher")]
+[assembly: AssemblyTitle("SingleContentItemTrasher")]
 [assembly: AssemblyDescription("Initial Add-on Packager")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("marija.jemuovic")]
-[assembly: AssemblyProduct("SingleFileTrasher")]
+[assembly: AssemblyProduct("SingleContentItemTrasher")]
 [assembly: AssemblyCopyright("Copyright © 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

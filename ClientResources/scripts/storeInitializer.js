@@ -20,7 +20,7 @@
                 var registry = this.resolveDependency("epi.storeregistry");
 
                 //Register store
-                registry.add("singleFileTrasher.extendedWastebasket",
+                registry.add("singleContentItemTrasher.extendedWastebasket",
                     new JsonRest({
                         target: this._getRestPath("extendedWastebasket"),
                         idProperty: "contentLink"
@@ -29,7 +29,7 @@
             },
 
             _getRestPath: function (name) {
-                return routes.getRestPath({ moduleArea: "SingleFileTrasher", storeName: name });
+                return routes.getRestPath({ moduleArea: "SingleContentItemTrasher", storeName: name });
             }
         });
     });

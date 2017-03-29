@@ -1,2 +1,4 @@
+[![Platform](https://img.shields.io/badge/Episerver-%2010.0.+-orange.svg?style=flat)](http://world.episerver.com/cms/)
+
 # SingleFileTrasher
-Grzegorz's "Deleting single file from trash" made an Episerver Add-On
+Grzegorz's "Deleting single content item from trash" made an Episerver Add-On
