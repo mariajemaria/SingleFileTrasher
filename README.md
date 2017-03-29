@@ -2,3 +2,5 @@
 
 # SingleFileTrasher
 Grzegorz's "Deleting single content item from trash" made an Episerver Add-On
+
+Read more here http://mariajemaria.net/converting-deleting-single-file-trash-code-add
