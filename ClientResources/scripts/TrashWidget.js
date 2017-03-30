@@ -49,10 +49,10 @@
                 trashItemListWidget._isDeleteActionModified = true;
             },
 
-            _craeteConfirmationDialog: function (row) {
+            _createConfirmationDialog: function (row) {
                 return new Confirmation({
                     title: "Delete",
-                    description: lang.replace("Are you sure you want to permanently delete '{name}'", row.data),
+                    description: lang.replace("Are you sure you want to permanently delete '{name}'?", row.data),
                     onShow: lang.hitch(this, function () {
                         var trashItemList = this.tabContainer.selectedChildWidget.getChildren()[0];
                         trashItemList.clearSelection();
@@ -77,7 +77,7 @@
                         return;
                     }
 
-                    var dialog = this._craeteConfirmationDialog(row);
+                    var dialog = this._createConfirmationDialog(row);
                     dialog.connect(dialog, "onAction", lang.hitch(this, function (confirm) {
                         if (!confirm) {
                             return;
