@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("SingleContentItemTrasher")]
-[assembly: AssemblyDescription("Initial Add-on Packager")]
+[assembly: AssemblyDescription("Single content item trasher")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("marija.jemuovic")]
 [assembly: AssemblyProduct("SingleContentItemTrasher")]
-[assembly: AssemblyCopyright("Copyright © 2017")]
+[assembly: AssemblyCopyright("Copyright © 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -21,4 +21,4 @@ using System.Runtime.InteropServices;
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 [assembly: Guid("aaf63d28-9f07-4c57-9ea5-f1c41fae7793")]
 
-[assembly: AssemblyVersion("1.0.1")]
+[assembly: AssemblyVersion("1.2.0")]
